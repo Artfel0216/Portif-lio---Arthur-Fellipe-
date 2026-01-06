@@ -6,7 +6,6 @@ export const metadata = {
   title: "Portfólio - Arthur Fellipe",
   description: "Portfólio profissional de Arthur Fellipe",
   icons: {
-    // Usando os ícones já presentes em public/favicon-for-public
     icon: "/favicon-for-public/web-app-manifest-192x192.png",
     shortcut: "/favicon-for-public/web-app-manifest-192x192.png",
     apple: "/favicon-for-public/web-app-manifest-192x192.png",

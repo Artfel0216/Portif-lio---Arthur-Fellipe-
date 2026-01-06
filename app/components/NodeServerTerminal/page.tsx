@@ -50,7 +50,7 @@ export default function NodeServerTerminal() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="
           w-full
-          max-w-[1600px]
+          max-w-400
           bg-[#0b0b0b]
           rounded-2xl
           p-3 md:p-10

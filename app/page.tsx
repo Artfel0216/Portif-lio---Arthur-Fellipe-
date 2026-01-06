@@ -6,6 +6,7 @@ import NodeServerTerminal from "./components/NodeServerTerminal/page";
 import TechStackSection from "./components/TechStackSection/page";
 import EcosystemSection from "./components/EcosystemSection/page";
 import LanguageSection from "./components/languageSection/page";
+import BdSection from "./components/BdSection/page";
 
 export default function Home() {
   // Captura o progresso da rolagem da página
@@ -75,6 +76,17 @@ export default function Home() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <LanguageSection />
+        </motion.div>
+      </section>
+
+       <section aria-labelledby="tech-stack-section">
+        <motion.div
+          initial={{ opacity: 0, y: 60, scale: 0.97 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <BdSection />
         </motion.div>
       </section>
     </motion.main>

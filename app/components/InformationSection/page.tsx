@@ -1,4 +1,7 @@
+"use client"; // <--- ADICIONE ESTA LINHA NO TOPO
+
 import { motion } from "framer-motion";
+import Image from "next/image"; // Importe o componente Image
 import foto from "../../../public/foto-portifólio .jpeg";
 import {
   Github,
@@ -89,11 +92,13 @@ export default function InformationSection() {
             />
 
             {/* IMAGE */}
-            <figure className="rounded-2xl overflow-hidden">
-              <img
-                src={foto.src}
+            <figure className="rounded-2xl overflow-hidden relative h-80">
+              <Image
+                src={foto}
                 alt="Foto de Arthur Fellipe"
-                className="w-full h-80 object-cover"
+                fill
+                className="object-cover"
+                priority
               />
               <figcaption className="sr-only">
                 Arthur Fellipe — Desenvolvedor Full Stack Júnior

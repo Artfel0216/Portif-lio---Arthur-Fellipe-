@@ -87,7 +87,7 @@ export default function Header() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/arthur-fellipe-0618aa222/"
+              href="https://wa.me/5581989352251?text=Ol%C3%A1%20Arthur!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20falar%20com%20voc%C3%AA."
               target="_blank"
               rel="noopener noreferrer"
               className="
